@@ -1294,7 +1294,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ff1bff;
+    background: #c8fff2;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2779,4 +2779,42 @@ header.header {
   .pagination {
     margin-bottom: 10px;
   }
+}
+/* 图片圆角 */
+.post-body img {
+  border-radius: 1em;
+}
+/* 主页文章添加阴影效果 */
+.post-block {
+  padding: 25px;
+  box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  margin-bottom: 20px; /* 添加间距防止重叠 */
+  background: rgba(255,255,255,0.9); /* 添加白色背景增强可读性 */
+}
+/* 整体背景设置 */
+body {
+  background: url("/images/doudou1.jpg") no-repeat fixed center center;
+  background-size: cover;
+  min-height: 100vh; /* 确保背景覆盖整个视口 */
+}
+/* 设置透明度 */
+.main-inner {
+  opacity: 0.9;
+  position: relative; /* 确保z-index生效 */
+}
+.header-inner {
+  opacity: 0.9;
+  position: relative; /* 确保z-index生效 */
+  z-index: 10;
+}
+/* 使上方对齐 */
+.site-meta {
+  padding-top: 0px; /* 调整顶部间距 */
+}
+/* 添加内容区域背景 */
+.content-wrap {
+  background: rgba(255,255,255,0.85);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
 }
