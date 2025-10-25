@@ -1294,7 +1294,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #e3d520;
+    background: #2e864d;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2793,7 +2793,7 @@ header.header {
 }
 /* 整体背景设置 */
 body {
-  background: url("/images/doudou1.jpg") no-repeat fixed center center;
+  background: url("/images/dd.jpg") no-repeat fixed center center;
   background-size: cover;
   min-height: 100vh; /* 确保背景覆盖整个视口 */
 }
