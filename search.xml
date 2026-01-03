@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Cpp</title>
-    <url>/2026/01/01/Cpp/</url>
+    <url>/2026/01/02/Cpp/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>编程语言</category>
@@ -13,7 +13,7 @@
   </entry>
   <entry>
     <title>C语言</title>
-    <url>/2026/01/01/C%E8%AF%AD%E8%A8%80/</url>
+    <url>/2026/01/02/C%E8%AF%AD%E8%A8%80/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>编程语言</category>
@@ -24,7 +24,7 @@
   </entry>
   <entry>
     <title>Java</title>
-    <url>/2026/01/01/Java/</url>
+    <url>/2026/01/02/Java/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>编程语言</category>
@@ -37,6 +37,12 @@
     <title>Python</title>
     <url>/2026/01/02/Python/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>编程语言</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
   </entry>
   <entry>
     <title>hexo+github从0到1博客环境搭建</title>
@@ -127,7 +133,7 @@
   </entry>
   <entry>
     <title>markdown语法</title>
-    <url>/2026/01/02/markdown%E8%AF%AD%E6%B3%95/</url>
+    <url>/2026/01/01/markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h1 id="Markdown-标题语法"><a href="#Markdown-标题语法" class="headerlink" title="Markdown 标题语法"></a>Markdown 标题语法</h1><p>在标题前添加若干<code>#</code>表示创建标题。</p>
 <h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>请使用空白行将一行或多行文本进行分隔。</p>
 <h1 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h1><h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><p>一个<code>*</code>号。</p>
@@ -151,17 +157,17 @@
   </entry>
   <entry>
     <title>NexT主题美化</title>
-    <url>/2026/01/02/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
+    <url>/2026/01/01/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<h1 id="NexT主题"><a href="#NexT主题" class="headerlink" title="NexT主题"></a>NexT主题</h1><p>从博客目录打开终端，执行命令</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p>下载好了之后会在themes目录下生成一个next目录，里面是next主题的配置文件。<br>修改主题只需要在博客根目录下的_config.yml配置文件里找到theme，将其修改为next即可。<br><img src="/2026/01/02/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/1.png"></p>
-<h2 id="修改布局"><a href="#修改布局" class="headerlink" title="修改布局"></a>修改布局</h2><p>在next目录下的_config.yml文件里搜索<code>Scheme</code>，有四种默认局部<br><img src="/2026/01/02/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/2.png"></p>
-<h3 id="主题颜色"><a href="#主题颜色" class="headerlink" title="主题颜色"></a>主题颜色</h3><p>白色模式和黑色模式<br><img src="/2026/01/02/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/3.png"><br>false为白色模式，true为黑色模式</p>
+<p>下载好了之后会在themes目录下生成一个next目录，里面是next主题的配置文件。<br>修改主题只需要在博客根目录下的_config.yml配置文件里找到theme，将其修改为next即可。<br><img src="/2026/01/01/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/1.png"></p>
+<h2 id="修改布局"><a href="#修改布局" class="headerlink" title="修改布局"></a>修改布局</h2><p>在next目录下的_config.yml文件里搜索<code>Scheme</code>，有四种默认局部<br><img src="/2026/01/01/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/2.png"></p>
+<h3 id="主题颜色"><a href="#主题颜色" class="headerlink" title="主题颜色"></a>主题颜色</h3><p>白色模式和黑色模式<br><img src="/2026/01/01/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/3.png"><br>false为白色模式，true为黑色模式</p>
 <h2 id="增加标签页和分类页"><a href="#增加标签页和分类页" class="headerlink" title="增加标签页和分类页"></a>增加标签页和分类页</h2><p>在next目录下的_config.yml文件里搜索<code>menu</code></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home</span><br><span class="line">  #about: /about/ || fa fa-user</span><br><span class="line">  tags: /tags/ || fa fa-tags</span><br><span class="line">  categories: /categories/ || fa fa-th</span><br><span class="line">  archives: /archives/ || fa fa-archive</span><br><span class="line">  #schedule: /schedule/ || fa fa-calendar</span><br><span class="line">  #sitemap: /sitemap.xml || fa fa-sitemap</span><br><span class="line">  #commonweal: /404/ || fa fa-heartbeat</span><br><span class="line"></span><br><span class="line"># Enable / Disable menu icons / item badges.</span><br><span class="line">menu_settings:</span><br><span class="line">  icons: true</span><br><span class="line">  badges: true</span><br></pre></td></tr></table></figure>
 <p>把tags和categories前面的<code>#</code>去掉<br><strong>进一步配置</strong><br>创建两个文件，一个是tags，一个是categories</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n page tags</span><br><span class="line">hexo n page categories</span><br></pre></td></tr></table></figure>
-<p>文件内容稍作修改<br><img src="/2026/01/02/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/4.jpg"><br><img src="/2026/01/02/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/5.jpg"></p>
+<p>文件内容稍作修改<br><img src="/2026/01/01/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/4.jpg"><br><img src="/2026/01/01/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/5.jpg"></p>
 <h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><p>把menu下的about前面的<code>#</code>去掉</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home</span><br><span class="line">  about: /about/ || fa fa-user</span><br><span class="line">  tags: /tags/ || fa fa-tags</span><br><span class="line">  categories: /categories/ || fa fa-th</span><br><span class="line">  archives: /archives/ || fa fa-archive</span><br><span class="line">  #schedule: /schedule/ || fa fa-calendar</span><br><span class="line">  #sitemap: /sitemap.xml || fa fa-sitemap</span><br><span class="line">  #commonweal: /404/ || fa fa-heartbeat</span><br></pre></td></tr></table></figure>
 <p>新建页面</p>
