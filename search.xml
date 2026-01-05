@@ -144,9 +144,9 @@
 <h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><p>要将单词或短语表示为代码，请将其包裹在反引号 (&#96;) 中。</p>
 <p>要创建代码块，三个反引号。</p>
 <h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p>
-<p>超链接Markdown语法代码：<code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code></p>
+<p>超链接Markdown语法代码：<code>[超链接显示名](超链接地址)</code></p>
 <h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>要添加图像，请使用感叹号 (<code>!</code>), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。</p>
-<p>插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。</p>
+<p>插入图片Markdown语法代码：<code>![图片alt](图片链接或地址)</code>。</p>
 ]]></content>
       <categories>
         <category>ttt</category>
